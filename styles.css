@@ -1585,3 +1585,34 @@ h1, h2, h3, h4, h5, h6 {
     white-space: nowrap;
     border: 0;
 }
+
+/* Logo image styling */
+.logo-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+}
+
+/* Founder photo styling */
+.founder-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.founder-image {
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+/* Hero with background image */
+.hero {
+    position: relative;
+}
+
+.hero .hero-bg {
+    display: none;
+}
